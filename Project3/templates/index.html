@@ -3,10 +3,11 @@
 
 <style>
     * {
-        font-family: "Rubik", "sans-serif";
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     div {
+        background-color: aqua;
         text-align: center;
         margin-top: 50px;
     }
@@ -16,12 +17,23 @@
         font-size: 40pt;
     }
 
-    p {
-        font-size: 20pt;
+    #counter {
+        text-align: right;
+        color: red;
+        font-size: 15pt;
     }
-</style>
 
-<div>
-    <h1>Welcome To My Website!</h1><br>
-    <p>Visited {{ count }} times.</p>
-</div>
+</style>
+<head>
+    <p id="counter">Visited {{ count }} times.</p>
+    <div>
+        <h1>Welcome To My Website!</h1>
+        <h2>Glad you could make it to my Website. Hope it wasn't too hard to find :).</h2>
+        
+    </div>
+</head>
+
+<body>
+    
+</body>
+
