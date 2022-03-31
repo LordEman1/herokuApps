@@ -9,7 +9,7 @@ function message(){
    msg = msg.replace(/\n/g, "\r\n"); // To retain the Line breaks.
    var blob = new Blob([msg], {type: "text/plain"});
    var anchor = document.createElement("a");
-   anchor.download = 'README.md';
+   anchor.download = 'yourMessage.txt';
    anchor.href = window.URL.createObjectURL(blob);
    anchor.target = "_blank";
    anchor.style.display = "none";
